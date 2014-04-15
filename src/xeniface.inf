@@ -68,7 +68,7 @@ liteagent.exe
 
 [Xeniface_Device.NT$ARCH$.Services]
 AddService = xeniface, %SPSVCINST_ASSOCSERVICE%, xeniface_Service_Inst
-AddService = xenlite, %LITESVC_FLAGS%, xenlite_Service_Inst
+;AddService = xenlite, %LITESVC_FLAGS%, xenlite_Service_Inst
 
 [xeniface_Service_Inst]
 DisplayName    = %XenIfaceDevice.DeviceDesc%
